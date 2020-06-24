@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior:smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+body{
+    position:relative;
+}
+
+
+  :root {
+        --shadow: #ffffff;
+        --scrollbarBG:#f2ff35;
+        --thumbBG: #f0ff24;
+  }
+  ::-webkit-scrollbar {
+              width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+               background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+               background-color: var(--thumbBG);
+               box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+  }
+
+
